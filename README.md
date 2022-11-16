@@ -71,6 +71,7 @@ nizsie popisujem len (relevantne aplikacie)
     - referencia: https://www.esri.com/en-us/arcgis/products/arcgis-instant-apps/overview
   * **Arcgis Web app builder**
     - aplikacia umoznujuca tvorbu vlastnych gis webovych rozhrani (GUI/obrazoviek)
+    - nutna instalacia desktopovej (developerskej verzie)
     - omnoho vyssia miera customizovatelnosti oproti **Arcgis Instant apps**
     - obsahuje mnozstvo predpripravenych widgetov takze casto staci drag&drop
     - vlastne widgety je mozne tvorit pomocou developerskej verzie v Javascripte
@@ -80,6 +81,7 @@ nizsie popisujem len (relevantne aplikacie)
     - ide len o novsiu verziu **web app builderu** postavenu na novsom javascript api 4.0 takze vsetko popisane v sekcii pre **Arcgis Web app builder** je            aplikovatelne aj tu
     - nakolko je postaveny na JS API 4.0 tak umoznuje komplexnejsie vizualizacie ktore predtym neboli mozne
     - na druhu stranu niektore widgety/funkcionality ktore su pristupne vo web app buildery este nie su doimplementovane
+    - pristupne cez prehliadac/ alebo moznost stiahnut developersku verziu
     - referencia: https://www.arcdata.cz/produkty/arcgis/aplikace-arcgis/arcgis-experience-builder
   
   
