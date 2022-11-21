@@ -48,15 +48,20 @@ nizsie popisujem len (relevantne aplikacie)
     - nevyhodou je minimalna "customizovatelnost"/programovatelnost a nutnost nahravat predpripravene data
     - typicky usecase je ze chceme s minimalnym usilim pripravit vizualne atraktivnu **interaktivnu** analyzu data/ ziskat nejaky vhlad do dat 
     - mozno pouzivat webovu verziu alebo desktopovu verziu
+    - umoznuje pripojenie na databazu
+    - vysledok sa ukalada ako tzv workbook
+    - velmi zaujimavou moznostou je pripojenie tohto workbooku cez iframe do vlastnej webovej applikacie (napr v arcgis web app builder)
     - pristup je aj v arcgis online aj arcgis enterprise (ak je zahrnute v licenci)
     - referencia: https://www.arcdata.cz/produkty/arcgis/aplikace-arcgis/arcgis-insights , https://doc.arcgis.com/en/insights/latest/get-started/insights-overview.htm
     
     
   * **Arcgis Dashboards**
-    - velmi podobny **Arcgis Insights**
+    - ma podobnu funkciu ako **Arcgis Insights** ale celkovo je menej prepracovany
     - opat no-code (drag&drop) pristup
-    - umoznuje vyssiu mieru customizovatelnosti vysledneho dashboardu
+    - umoznuje customizovat rozlozenie dashboardu ale nevyhdou je pristup len k zakladnym grafom ako bar chart/indicator atd
     - taktiez naviac umoznuje pozorovat priebezne sa meniace data
+    - neumoznuje pripojenie na databazu
+    - sharing je vo forme weboveho dashboardu
     - referencia: https://www.arcdata.cz/produkty/arcgis/aplikace-arcgis/arcgis-dashboards
     
   * **Arcgis AppStudio**
