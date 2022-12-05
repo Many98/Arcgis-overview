@@ -115,8 +115,61 @@ nizsie popisujem len (relevantne aplikacie)
       - este som neskusal
     - Filter https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-filter.htm
       - umoznuje zobrazit featury len na zaklade predefinovanej query
-    
+    - Geoprocessing https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-geoprocessing.htm
+      - mal by umoznit zavolat a vykonat nejaky geoprocessing task/service
+      - dany task/service treba nakonfigurovat pomocou url
+      - malo by umoznovat aj menit symbologiu
+    - Infographic https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-infographic.htm
+      - umoznuje zobrazovat dashoboard-like vizualizacie
+    - Layer List https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-layer-list.htm
+      - zobrazenie layer v mape
+    - Print https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-print.htm
+      - umoznuje vytlacit aktualnu zobrazenu mapu
+    - Query https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-query.htm
+      - velmi uzitocny widget na tvorbu preddefinovanych query (filtrov)
+      - umoznuje taktiez spatial filtre
+      - nastavenie vlastnej symbologie
+      - umoznuje export do geojson/csv atd
+    - Scalebar https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-scalebar.htm
+      - nastavenie mierky
+    - Search https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-search.htm
+      - vyhladavanie pomocou predefinovaneho service
+    - Select https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-select.htm
+      - velmi podobne query widgetu...
+    - Smart editor https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-smart-editor.htm
+      - este som neskusal
+    - Time Slider https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-time-slider.htm
+      - umoznuje zobrazovat temporalne featury a robit tak animacie
+      - vyzaduje ale aby layer mala nastaveny nejaky temporalny attribut
   
   * **Custom widgety**
   
+    - AddLayer https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-time-slider.htm
+      - pridanie vrstvy bez to aby sa vopred pridavala do mapy
+    - SaveSession https://github.com/softwhere/SaveSession-Widget
+      - umoznuje ulozit sucasny session/rozpracovany "projekt" a neskor ho znovu nacitat a pokracovat v praci...
+    - ChangeWebMap https://github.com/softwhere/ChangeWebMap-Widget
+      - umoznuje zmenit base mapu zorbazenu v appke
+    - Skupina kde ludia zdielaju custom widgety
+      - https://community.esri.com/t5/web-appbuilder-custom-widgets-documents/tkb-p/web-appbuilder-custom-widgetstkb-board/page/5
+    - EnhancedSearch https://github.com/softwhere/eSearch
+      - chapem to ako vylepsenie Query widgetu
+      - blizsi popis -> https://gis.calhouncounty.org/WAB/V2.23/widgets/eSearch/widgets/eSearch/help/eSearch_Help.htm
+      - live preview -> https://gis.calhouncounty.org/WAB/V2.23/widgets/eSearch/index.html?esearch=I-71&slayer=1&exprnum=0
+    - Widget icons https://github.com/softwhere/widget-icons
+      - zmena ikoniek
+    - Custom widgets https://github.com/AdriSolid/WAB-Custom-Widgets
+      - repo obsahuje par zaujimavych widgetov
+      - napr. Intro ... widget ktory krok za krokom predstavi moznosti appky
+      - HeatMap ... velmi pekna heatmap
+      - SelectByAttributes
+      - Buffer widget
+    - Vlastne widgety mozno tvorit pomocou Arcgis API for Javascript + Arcade jazyka
+      - Sample kody a live demo:
+        - proportional points -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/renderer_proportional_points.html
+        - heatmaps -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/renderer_heatmap_weighted.html
+        - clustering (bubliny) -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/fl_clustering_basic.html
+        - toggle point clustering -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/fl_clustering_toggle.html
+        - temporal slider -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/renderer_temporal.html
+        ...
   
