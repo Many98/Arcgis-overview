@@ -171,5 +171,6 @@ nizsie popisujem len (relevantne aplikacie)
         - clustering (bubliny) -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/fl_clustering_basic.html
         - toggle point clustering -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/fl_clustering_toggle.html
         - temporal slider -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/renderer_temporal.html
+        - query by sql -> https://gis.sanramon.ca.gov/arcgis_js_api/sdk/jssamples/query_statistics_sql.html
         ...
   
