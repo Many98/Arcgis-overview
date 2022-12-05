@@ -2,8 +2,9 @@
 
 tento dokument sluzi len ako akysi zjednoteny prehlad moznosti v Arcgis prostredi...
 licencie v tomto dokumente neriesim pretoze su s pohladu vyberu vhodnej aplikacie/riesenia pre konkretnu ulohu uplne irelevantne
-
+---------------------------------------------------------------------------------------
 ### Arcgis riesenia
+---------------------------------------------------------------------------------------
 https://www.esri.com/en-us/arcgis/products/develop-with-arcgis/overview
 * **Webovy GIS**
   ide o riesenie zalozene na pristupe cez prehliadac, existuju dve moznosti
@@ -37,6 +38,7 @@ treba si uvedomit ze mnozinu pristupnych aplikaci ovplyvnuje len licencia, co sa
   - referencia: https://www.arcdata.cz/produkty/arcgis/desktopovy-gis/arcgis-pro
   
 ### Arcgis aplikacie 
+---------------------------------------------------------------------------------------
 prehlad: https://www.arcdata.cz/produkty/arcgis/aplikace-arcgis ; https://developers.arcgis.com/documentation/app-templates-and-builders/ 
 
 nizsie popisujem len (relevantne aplikacie)
@@ -88,6 +90,33 @@ nizsie popisujem len (relevantne aplikacie)
     - na druhu stranu niektore widgety/funkcionality ktore su pristupne vo web app buildery este nie su doimplementovane
     - pristupne cez prehliadac/ alebo moznost stiahnut developersku verziu
     - referencia: https://www.arcdata.cz/produkty/arcgis/aplikace-arcgis/arcgis-experience-builder
+    
+### Prehlad widgetov pre Arcgis web app builder
+  ---------------------------------------------------------------------------------------
+  * **Defaultne widgety**
+    - Add Data https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-add-data.htm
+      - jednoduche pridanie layers do mapy
+    - Analysis https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-analysis.htm
+      - pristup k Arcgis Spatial analysis tools; vyuziva tzv  Spatial analysis service REST API
+      - vela uzitocnych funkcii napr calculate density
+      - z mojej skusensti to casto dlho trva , pripadne spadne bez postacujuceho vysvetlenia
+      - nevyhodou je tiez ze finalna (raster) vrstva neumoznuje jednoducho upravit symbologiu/vzhlad napr. vyslednej hustoty
+    - Attribute table https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-attribute-table.htm
+      - jednoducha vizualizacia features/atributov
+      - vhodne len ako nahlad pripadne nejaku filtraciu
+    - Batch attribute editor https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-batch-attribute-editor.htm
+      - malo by umoznovat upravu feature/tabuliek pomocou bud nakresleneho alebo importnuteho shapu (este som neskusal)
+    - Data aggregation https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-data-aggregation.htm
+      - malo by umoznit vyvorit feature service z uploadnuteho csv suboru obsahujuceho adresu/suradnice
+    - Draw https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-draw.htm
+      - jednoduche kreslenie vlastnych shapov
+      - nefunguje ako filter
+    - Edit https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-edit.htm
+      - este som neskusal
+    - Filter https://doc.arcgis.com/en/web-appbuilder/latest/create-apps/widget-filter.htm
+      - umoznuje zobrazit featury len na zaklade predefinovanej query
+    
   
+  * **Custom widgety**
   
   
